@@ -1,0 +1,262 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "Name": "Sushi : "
+    },
+    {
+      "id": 2,
+      "Name": "Ramen : "
+    },
+    {
+      "id": 3,
+      "Name": "Minuman : "
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "code": "P0001",
+      "name": "Beef slice mentai",
+      "price": 20000,
+      "is_ready": true,
+      "image": "/frontend/public/img/Sushi/beef slice mentai.jpeg",
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "code": "P0002",
+      "name": "Fish roll sushi",
+      "price": 20000,
+      "is_ready": true,
+      "image": "/frontend/public/img/Sushi/fish roll sushi.jpeg",
+      "category_id": 1
+    },
+    {
+      "id": 3,
+      "code": "P0003",
+      "name": "Nakumi",
+      "price": 10000,
+      "is_ready": true,
+      "image": "/frontend/public/img/Sushi/nakumi.jpeg",
+      "category_id": 1
+    },
+    {
+      "id": 4,
+      "code": "P0004",
+      "name": "Salmon roll",
+      "price": 15000,
+      "is_ready": true,
+      "image": "/frontend/public/img/Sushi/salmon roll.jpeg",
+      "category_id": 1
+    },
+    {
+      "id": 5,
+      "code": "P0005",
+      "name": "Spicy tuna",
+      "price": 25000,
+      "is_ready": true,
+      "image": "/frontend/public/img/Sushi/spicy tuna.jpeg",
+      "category_id": 1
+    },
+    {
+      "id": 6,
+      "code": "P0006",
+      "name": "Sushi spicy",
+      "price": 30000,
+      "is_ready": true,
+      "image": "/frontend/public/img/Sushi/sushi spicy.jpeg",
+      "category_id": 1
+    },
+    {
+      "id": 7,
+      "code": "P0007",
+      "name": "Chicken ramen curry",
+      "price": 25000,
+      "is_ready": true,
+      "image": "/frontend/public/img/Ramen/chicken ramen curry.jpeg",
+      "category_id": 2
+    },
+    {
+      "id": 8,
+      "code": "P0008",
+      "name": "Curry chicken ramen",
+      "price": 27000,
+      "is_ready": true,
+      "image": "/frontend/public/img/Ramen/curry chicken ramen - glebe kitchen.jpeg",
+      "category_id": 2
+    },
+    {
+      "id": 9,
+      "code": "P0009",
+      "name": "Gyuuniku ramen",
+      "price": 28000,
+      "is_ready": true,
+      "image": "/frontend/public/img/Ramen/gyuuniku ramen.jpeg",
+      "category_id": 2
+    },
+    {
+      "id": 10,
+      "code": "P0010",
+      "name": "Kanigawa ramen",
+      "price": 30000,
+      "is_ready": true,
+      "image": "/frontend/public/img/Ramen/kanigawa ramen.jpeg",
+      "category_id": 2
+    },
+    {
+      "id": 11,
+      "code": "P0011",
+      "name": "Original ramen",
+      "price": 22000,
+      "is_ready": true,
+      "image": "/frontend/public/img/Ramen/original ramen curry.jpeg",
+      "category_id": 2
+    },
+    {
+      "id": 12,
+      "code": "P0012",
+      "name": "Tonkotsu ramen",
+      "price": 35000,
+      "is_ready": true,
+      "image": "/frontend/public/img/Ramen/Tonkotsu Ramen.jpeg",
+      "category_id": 2
+    },
+    {
+      "id": 13,
+      "code": "P0013",
+      "name": "Le mineral",
+      "price": 5000,
+      "is_ready": true,
+      "image": "/frontend/public/img/Minuman/le mineral.jpeg",
+      "category_id": 3
+    },
+    {
+      "id": 14,
+      "code": "P0014",
+      "name": "Lemon Tea",
+      "price": 10000,
+      "is_ready": true,
+      "image": "/frontend/public/img/Minuman/Lemon Tea.jpeg",
+      "category_id": 3
+    },
+    {
+      "id": 15,
+      "code": "P0015",
+      "name": "Ocha",
+      "price": 12000,
+      "is_ready": true,
+      "image": "/frontend/public/img/Minuman/Ocha.jpeg",
+      "category_id": 3
+    },
+    {
+      "id": 16,
+      "code": "P0016",
+      "name": "Orange",
+      "price": 10000,
+      "is_ready": true,
+      "image": "/frontend/public/img/Minuman/Orange.jpeg",
+      "category_id": 3
+    },
+    {
+      "id": 17,
+      "code": "P0017",
+      "name": "Rose tea",
+      "price": 15000,
+      "is_ready": true,
+      "image": "/frontend/public/img/Minuman/rose tea.jpeg",
+      "category_id": 3
+    },
+    {
+      "id": 18,
+      "code": "P0018",
+      "name": "Tea",
+      "price": 8000,
+      "is_ready": true,
+      "image": "/frontend/public/img/Minuman/tea.jpeg",
+      "category_id": 3
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "name": "Beef slice mentai",
+      "qty": 2,
+      "price": 20000,
+      "totalPrice": 40000,
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "name": "Chicken ramen curry",
+      "qty": 1,
+      "price": 25000,
+      "totalPrice": 25000,
+      "productId": 7
+    },
+    {
+      "id": 3,
+      "name": "Rose tea",
+      "qty": 3,
+      "price": 15000,
+      "totalPrice": 45000,
+      "productId": 17
+    },
+    {
+      "id": 4,
+      "name": "Ocha",
+      "qty": 1,
+      "price": 12000,
+      "totalPrice": 12000,
+      "productId": 15
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "date": "2024-12-24T19:00:00.000Z",
+      "total": 65000,
+      "details": [
+        {
+          "qty": 2,
+          "price": 20000,
+          "name": "Beef slice mentai",
+          "totalPrice": 40000,
+          "note": "Extra sauce",
+          "productId": 1
+        },
+        {
+          "qty": 1,
+          "price": 25000,
+          "name": "Chicken ramen curry",
+          "totalPrice": 25000,
+          "note": "Less spicy",
+          "productId": 7
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "date": "2024-12-24T19:30:00.000Z",
+      "total": 38000,
+      "details": [
+        {
+          "qty": 1,
+          "price": 15000,
+          "name": "Rose tea",
+          "totalPrice": 15000,
+          "note": "Less sugar",
+          "productId": 17
+        },
+        {
+          "qty": 1,
+          "price": 23000,
+          "name": "Curry chicken ramen",
+          "totalPrice": 23000,
+          "note": "Extra spicy",
+          "productId": 8
+        }
+      ]
+    }
+  ]
+}
