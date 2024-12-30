@@ -10,6 +10,7 @@ export default defineConfig({
         target: 'http://localhost:5500/',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
+        base: "/project_tekweb-_uas_2024",
       },
     },
   },
